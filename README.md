@@ -1,4 +1,4 @@
-# panchi examples
+# panchi Examples
 
 This repo contains Jupyter notebooks demonstrating [panchi](https://github.com/Gustavo-Galvao-e-Silva/panchi) in a classroom/homework setting. Each notebook targets a distinct topic of a first linear algebra course and follows the same rhythm:
 
