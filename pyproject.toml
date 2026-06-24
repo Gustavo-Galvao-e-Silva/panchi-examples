@@ -1,0 +1,15 @@
+[project]
+name = "panchi-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "panchi>=1.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+]

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.python-version
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# MacOS Files
+.DS_Store
+
+# Vim fzf setup
+.ignore
+
+# Local env files
+.env
