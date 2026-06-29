@@ -5,7 +5,7 @@
     </picture>
 </div>
 
-# panchi · examples
+# panchi examples
 
 **A guided tour of [panchi](https://github.com/Gustavo-Galvao-e-Silva/panchi) through a first course in linear algebra.**
 
