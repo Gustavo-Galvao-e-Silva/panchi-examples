@@ -27,7 +27,7 @@ Each notebook follows the same rhythm:
 
 > **concept explanation → panchi code → step-by-step output**
 
-The aim is to _see the math happen_ — spans you can picture, reductions that show every step, transformations you can watch — rather than to memorize function signatures.
+The aim is to _see the math happen_: spans you can picture, reductions that show every step, transformations you can watch — rather than to memorize function signatures.
 
 Think of it as a **workbook**, not a manual.
 
@@ -73,29 +73,29 @@ pip install "panchi[manim]"
 
 Introduces panchi's core `Vector` and `VectorSpace` objects. Starting from simple vector arithmetic, the notebook builds up to span and linear independence, using short code stubs and visualizations to make each idea concrete.
 
-_More notebooks are on the way — one per topic, as the course unfolds._
+_More notebooks are on the way!_
 
 ---
 
 ## How to read a notebook
 
-Every notebook is self-contained and meant to be run top to bottom. The prose sets up the concept, the code cell is small enough to read in one sitting, and the output is where panchi earns its keep — full step-by-step walkthroughs rather than a lone answer. Run a cell, read what it prints, then change a number and run it again.
+Every notebook is self-contained and meant to be run top to bottom. The prose sets up the concept, the code cell is small enough to read in one sitting, and the output is where panchi earns its keep: full step-by-step walkthroughs rather than a lone answer. Run a cell, read what it prints, then change a number and run it again.
 
 ---
 
 ## Related
 
-- **[panchi](https://github.com/Gustavo-Galvao-e-Silva/panchi)** — the library these notebooks demonstrate
-- **[Documentation](https://gustavo-galvao-e-silva.github.io/panchi/)** — full user guides and API reference
+- **[panchi](https://github.com/Gustavo-Galvao-e-Silva/panchi)**: the library these notebooks demonstrate
+- **[Documentation](https://gustavo-galvao-e-silva.github.io/panchi/)**: full user guides and API reference
 
 ---
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License: see [LICENSE](LICENSE) for details.
 
 ---
 
 ## Acknowledgments
 
-These notebooks follow Gilbert Strang's _Introduction to Linear Algebra_ and draw visual intuition from 3Blue1Brown's _Essence of Linear Algebra_ — resources that make the subject visible, not just computable.
+These notebooks follow Gilbert Strang's _Introduction to Linear Algebra_ and draw visual intuition from 3Blue1Brown's _Essence of Linear Algebra_.
