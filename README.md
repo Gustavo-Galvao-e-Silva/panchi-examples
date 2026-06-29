@@ -14,8 +14,7 @@ Concept → code → step-by-step output. One notebook per topic.
 <div align="center">
 <a href="https://github.com/Gustavo-Galvao-e-Silva/panchi"><img src="https://img.shields.io/badge/built%20with-panchi-A52A2A.svg" alt="Built with panchi"></a>
 <a href="https://jupyter.org/"><img src="https://img.shields.io/badge/Jupyter-notebooks-F37626.svg?logo=jupyter&logoColor=white" alt="Jupyter"></a>
-<a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.14+-blue.svg" alt="Python 3.14+"></a>
-<a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
+<a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.14+"></a>
 </div>
 
 ---
