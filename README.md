@@ -63,6 +63,27 @@ pip install "panchi[manim]"
 
 ---
 
+## Showcase
+
+Short clips rendered with panchi's manim backend. Click a preview for the full 1080p60 video.
+
+| | |
+| :---: | :---: |
+| <a href="showcase/media/01_eigenvectors.mp4"><img src="showcase/media/previews/01_eigenvectors.gif" width="400" alt="Eigenvectors of [[2,1],[1,2]]"></a> | <a href="showcase/media/02_shear.mp4"><img src="showcase/media/previews/02_shear.gif" width="400" alt="A shear transformation"></a> |
+| **Eigenvectors.** Under `[[2, 1], [1, 2]]`, the gold and peach vectors stay on their own lines and only stretch, by 3 and by 1. The teal vector turns. | **Shear.** `[[1, 1], [0, 1]]` slides the grid sideways while the x-axis stays fixed. |
+| <a href="showcase/media/03_transform_3d.mp4"><img src="showcase/media/previews/03_transform_3d.gif" width="400" alt="A 3D linear transformation"></a> | <a href="showcase/media/04_projection.mp4"><img src="showcase/media/previews/04_projection.gif" width="400" alt="Projection onto a plane"></a> |
+| **3D transformation.** A 45° rotation about the z-axis combined with a stretch, acting on vectors in R³. | **Least squares.** `b` isn't on the plane spanned by `a₁, a₂`, so it's projected to the closest point `p = [1, 2, 2]`, solved exactly from the normal equations `AᵀA x̂ = Aᵀb`. |
+
+To re-render them, or to tweak the matrices and render your own:
+
+```bash
+pip install "panchi[manim]"        # panchi 3.2 or newer
+python showcase/render.py          # every clip, 1080p60
+python showcase/render.py low eigen   # one clip, quick preview
+```
+
+---
+
 ## Notebooks
 
 | #   | Notebook                                                                            | Topics                                                      | Strang reference |
